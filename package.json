@@ -29,7 +29,9 @@
     "win32"
   ],
   "dependencies": {
-    "debug": "~2.2.0"
+    "debug": "~2.2.0",
+    "react-native-ble": "gilesvangruisen/react-native-ble#gvg-expose-bindings",
+    "react-native-os": "gilesvangruisen/react-native-os#gilesvangruisen-patch-1"
   },
   "optionalDependencies": {
     "bluetooth-hci-socket": "^0.5.1",
@@ -52,5 +54,9 @@
     "./distributed/bindings": false,
     "./mac/bindings": false,
     "./hci-socket/bindings": false
+  },
+  "react-native": {
+    "bluetooth-hci-socket": false,
+    "os": "react-native-os"
   }
 }
