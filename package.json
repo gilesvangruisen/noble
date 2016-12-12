@@ -56,7 +56,10 @@
     "./hci-socket/bindings": false
   },
   "react-native": {
-    "bluetooth-hci-socket": false,
-    "os": "react-native-os"
+    "os": "react-native-os",
+    "./lib/websocket/bindings": false,
+    "./lib/distributed/bindings": false,
+    "./lib/mac/bindings": false,
+    "./lib/hci-socket/bindings": false
   }
 }
