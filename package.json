@@ -29,7 +29,8 @@
     "win32"
   ],
   "dependencies": {
-    "debug": "~2.2.0"
+    "debug": "~2.2.0",
+    "buffer": "^4.6.0"
   },
   "optionalDependencies": {
     "react-native-ble": "gilesvangruisen/react-native-ble#gvg-expose-bindings",
