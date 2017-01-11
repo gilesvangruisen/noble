@@ -33,7 +33,7 @@
     "buffer": "^4.6.0"
   },
   "optionalDependencies": {
-    "react-native-ble": "gilesvangruisen/react-native-ble#gvg-expose-bindings",
+    "react-native-ble": "jacobrosenthal/react-native-ble#da381b1",
     "react-native-os": "gilesvangruisen/react-native-os#gilesvangruisen-patch-1",
     "bluetooth-hci-socket": "^0.5.1",
     "bplist-parser": "0.0.6",
